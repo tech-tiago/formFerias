@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Formulário de Cadastro</title>
+</head>
+<body>
+    <section class="section">
+        <div class="container">
+            <h1 class="title">Cadastro de Férias</h1>
+            <form id="cadastro-form">
+                <div class="field">
+                    <label class="label">Nome Completo</label>
+                    <div class="control">
+                        <input class="input" type="text" name="nome" required>
+                    </div>
+                </div>
+                <div class="field">
+                    <label class="label">Matrícula ou CPF</label>
+                    <div class="control">
+                        <input class="input" type="text" name="matricula_cpf" required>
+                    </div>
+                </div>
+                <div class="field">
+                    <label class="label">Mês de Férias (Selecione 3 meses)</label>
+                    <div class="control">
+                        <label class="checkbox">
+                            <input type="checkbox" name="ferias" value="Janeiro"> Janeiro
+                        </label>
+                        <label class="checkbox">
+                            <input type="checkbox" name="ferias" value="Fevereiro"> Fevereiro
+                        </label>
+                        <label class="checkbox">
+                            <input type="checkbox" name="ferias" value="Março"> Março
+                        </label>
+                        <label class="checkbox">
+                            <input type="checkbox" name="ferias" value="Abril"> Abril
+                        </label>
+                        <label class="checkbox">
+                            <input type="checkbox" name="ferias" value="Maio"> Maio
+                        </label>
+                        <label class="checkbox">
+                            <input type="checkbox" name="ferias" value="Junho"> Junho
+                        </label>
+                        <label class="checkbox">
+                            <input type="checkbox" name="ferias" value="Julho"> Julho
+                        </label>
+                        <label class="checkbox">
+                            <input type="checkbox" name="ferias" value="Agosto"> Agosto
+                        </label>
+                        <label class="checkbox">
+                            <input type="checkbox" name="ferias" value="Setembro"> Setembro
+                        </label>
+                        <label class="checkbox">
+                            <input type="checkbox" name="ferias" value="Outubro"> Outubro
+                        </label>
+                        <label class="checkbox">
+                            <input type="checkbox" name="ferias" value="Novembro"> Novembro
+                        </label>
+                        <label class="checkbox">
+                            <input type="checkbox" name="ferias" value="Dezembro"> Dezembro
+                        </label>
+                    </div>
+                </div>
+                <div class="field">
+                    <div class="control">
+                        <button class="button is-primary" type="submit">Enviar</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+    <script src="js/script.js"></script>
+</body>
+</html>

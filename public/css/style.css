@@ -1,0 +1,28 @@
+/* style.css */
+html, body {
+  height: 100%;
+  background-image: linear-gradient(to bottom, #f0f0f0, #c0c0c0); 
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.field {
+  margin-bottom: 1rem;
+}
+
+.button {
+  margin-top: 1rem;
+}
+
+#month-selection-2, #month-selection-3 {
+  display: none;
+}
